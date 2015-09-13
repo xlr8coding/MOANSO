@@ -30,7 +30,7 @@ namespace ProyectoVenta
         public string getEncabezado()
         {
             return string.Format("REPORTE DE VENTA\n" + 
-                                 "Numero de venta: {0}\n" +
+                                 "ID de venta: {0}\n" +
                                  "Fecha: {1}\n" + 
                                  "Cliente: {2}\n"
                                  ,venta.Numventa,venta.Fecha, venta.Cliente.Nombre);
